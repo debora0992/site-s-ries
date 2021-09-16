@@ -1,0 +1,62 @@
+/*reset CSS*/
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-image: url(../img/imagem\ de\ fundo.png);
+    background-size: cover;
+    text-align: center;
+   
+}
+
+#formulario{  
+    height:300px;
+    width: 400px;
+    text-align: center;
+    background-color: black;
+    margin: auto;
+    padding-top: 20px;
+    box-sizing: border-box; 
+    margin-top: 100px;
+    backdrop-filter: blur(4px);
+
+    
+}
+label{
+    color: white;
+    font-size: 20px;
+}
+
+input{
+    width: 70%;
+    height: 30px;
+    font-size: 20px;
+    
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    background-color: grey;
+    color: white;
+    font-size: 23px;
+    border: none;
+    margin-top: 80px;
+
+
+}
+
+button:hover{
+
+    background-color: rgba(63, 62, 62, );
+}
+
+.voltar{
+
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
